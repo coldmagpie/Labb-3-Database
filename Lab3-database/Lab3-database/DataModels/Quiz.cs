@@ -17,8 +17,5 @@ namespace Lab3_database.DataModels
         [BsonElement]
         public List<Question> Questions { get; set; } = new();
 
-        //[BsonElement] 
-        //public List<ObjectId> QuestionIds { get; set; }
-
     }
 }

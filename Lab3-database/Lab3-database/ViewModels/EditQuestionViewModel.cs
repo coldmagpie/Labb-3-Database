@@ -181,7 +181,8 @@ namespace Lab3_database.ViewModels
                    !string.IsNullOrEmpty(Answer1) &&
                    !string.IsNullOrEmpty(Answer2) &&
                    !string.IsNullOrEmpty(Answer3) &&
-                   !string.IsNullOrEmpty(Answer4);
+                   !string.IsNullOrEmpty(Answer4) &&
+                   _selectedQuestion is not null;
         }
     }
 }
